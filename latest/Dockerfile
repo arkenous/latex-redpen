@@ -13,5 +13,7 @@ RUN curl --silent -L -o /tmp/redpen.tar.gz https://github.com/redpen-cc/redpen/r
   mkdir /root/redpen && \
   tar -zxvf /tmp/redpen.tar.gz -C /root/redpen --strip-components 1 > /dev/null && \
   rm -f /tmp/redpen.tar.gz
+
 ENV PATH /root/redpen/bin:$PATH
 
+RUN pacman -Scc --noconfirm &> /dev/null
