@@ -1,9 +1,9 @@
 ## -*- docker-image-name: "trileg/latex-redpen" -*-
 FROM trileg/arch-base:latest
-MAINTAINER Kensuke Kosaka <kosaka@trileg.net>
+MAINTAINER Kensuke Kosaka <k@trileg.net>
 
 # Install packages
-RUN pacman -Syu --noconfirm texlive-langcjk texlive-fontsextra jdk8-openjdk git openssh &> /dev/null
+RUN pacman -Syu --noconfirm texlive-langcjk texlive-fontsextra jre8-openjdk-headless git openssh &> /dev/null
 
 # Run below command to resolve dvipdfmx mktexpk font error
 RUN updmap &> /dev/null
