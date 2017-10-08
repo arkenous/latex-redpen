@@ -1,5 +1,5 @@
 # latex-redpen
-[![Build Status](https://travis-ci.org/trileg/latex-redpen.svg?branch=master)](https://travis-ci.org/trileg/latex-redpen)
-[![](https://images.microbadger.com/badges/image/trileg/latex-redpen.svg)](https://microbadger.com/images/trileg/latex-redpen "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/trileg/latex-redpen.svg)](https://microbadger.com/images/trileg/latex-redpen "Get your own version badge on microbadger.com")
-[![AMA](https://img.shields.io/badge/ask%20me-anything-0e7fc0.svg)](https://github.com/trileg/ama)
+[![Build Status](https://travis-ci.org/k3nsuk3/latex-redpen.svg?branch=master)](https://travis-ci.org/k3nsuk3/latex-redpen)
+[![](https://images.microbadger.com/badges/image/k3nsuk3/latex-redpen.svg)](https://microbadger.com/images/k3nsuk3/latex-redpen "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/k3nsuk3/latex-redpen.svg)](https://microbadger.com/images/k3nsuk3/latex-redpen "Get your own version badge on microbadger.com")
+[![AMA](https://img.shields.io/badge/ask%20me-anything-0e7fc0.svg)](https://github.com/k3nsuk3/ama)
