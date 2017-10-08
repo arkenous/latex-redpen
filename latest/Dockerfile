@@ -6,7 +6,7 @@ MAINTAINER Kensuke Kousaka <k@k3n.link>
 RUN pacman -Syu --noconfirm texlive-langjapanese texlive-fontsextra jre8-openjdk-headless git openssh &> /dev/null
 
 # Run below command to resolve dvipdfmx mktexpk font error
-RUN updmap &> /dev/null
+RUN updmap-sys --syncwithtrees &> /dev/null
 
 # Install RedPen
 RUN curl --silent -L -o /tmp/redpen.tar.gz https://github.com/redpen-cc/redpen/releases/download/redpen-1.7.6/redpen-1.7.6.tar.gz && \
