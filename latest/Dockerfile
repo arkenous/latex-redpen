@@ -1,6 +1,6 @@
-## -*- docker-image-name: "trileg/latex-redpen" -*-
-FROM trileg/arch-base:latest
-MAINTAINER Kensuke Kosaka <k@trileg.net>
+## -*- docker-image-name: "k3nsuk3/latex-redpen" -*-
+FROM k3nsuk3/arch-base:latest
+MAINTAINER Kensuke Kousaka <k@k3n.link>
 
 # Install packages
 RUN pacman -Syu --noconfirm texlive-langcjk texlive-fontsextra jre8-openjdk-headless git openssh &> /dev/null
